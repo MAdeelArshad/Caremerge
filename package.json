@@ -1,0 +1,21 @@
+{
+ "name": "careaxiom-title-fetcher",
+ "version": "1.0.0",
+ "description": "Node.js title fetcher implemented with callbacks, async flow, promises, and RxJS streams.",
+ "main": "promises-server.js",
+ "scripts": {
+  "start:callbacks": "node callbacks-server.js",
+  "start:async": "node async-server.js",
+  "start:promises": "node promises-server.js",
+  "start:streams": "node streams-server.js"
+ },
+ "keywords": [],
+ "author": "",
+ "license": "ISC",
+ "dependencies": {
+  "async": "^3.2.6",
+  "axios": "^1.13.6",
+  "express": "^5.2.1",
+  "rxjs": "^7.8.2"
+ }
+}
