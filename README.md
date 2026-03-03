@@ -43,15 +43,15 @@ npm install
 
 Each implementation has its own script and default port:
 
+- async library: `3000` -> `npm run start:async`
 - callbacks: `3001` -> `npm run start:callbacks`
-- async library: `3002` -> `npm run start:async`
-- promises: `3003` -> `npm run start:promises`
-- streams (bonus): `3004` -> `npm run start:streams`
+- promises: `3002` -> `npm run start:promises`
+- streams (bonus): `3003` -> `npm run start:streams`
 
 To override a port:
 
 ```bash
-PORT=4000 npm run start:promises
+PORT=3000 npm run start:promises
 ```
 
 ## Validation
@@ -67,5 +67,3 @@ Expected response format:
 - HTML document
 - Heading: `Following are the titles of given websites:`
 - List item format: `address - "Title"` or `address - "NO RESPONSE"`
-
-
